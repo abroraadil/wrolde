@@ -46,6 +46,9 @@ function wordInput(OGletter, row){
         }
 
     } else if (letter == "ENTER"){
+        if (currentRow == 5){
+                loseGame()
+            }
         let usersWord = "";
         const workableWord = word.split("")
         if (letterInputs.length == 5){
@@ -67,9 +70,7 @@ function wordInput(OGletter, row){
             }
             letterInputs = [];
             currentRow++;
-            if (currentRow == 5){
-                loseGame()
-            }
+
         }
 
     }
@@ -91,3 +92,4 @@ console.log(word)
 document.addEventListener("keydown", function(event){
     wordInput(`${event.key}`, currentRow);
 });
+

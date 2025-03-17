@@ -1,6 +1,25 @@
 var word;
+
 const wordList = [
-    "CAROL", "PAINS", "CRACK", "BOXES", "STATE", "PLAYS", "START", "CRANE", "ESSAY", "share", "again", "enter"
+  "apple", "brave", "charm", "dizzy", "eager", "fancy", "globe", "happy", "ideal", "jolly",
+  "knock", "lucky", "mango", "novel", "ocean", "pearl", "quick", "raven", "sunny", "tiger",
+  "uncle", "vivid", "witty", "xenon", "young", "zebra", "amber", "beach", "crisp", "dwell",
+  "eagle", "flame", "grape", "haste", "icily", "jumbo", "kayak", "latch", "mirth", "north",
+  "olive", "plush", "quilt", "risky", "spine", "throb", "unity", "vogue", "whale", "xerox",
+  "yeast", "zesty", "alarm", "blend", "crown", "drift", "excel", "flood", "grand", "hover",
+  "image", "jolly", "kneel", "lofty", "merry", "nerdy", "orbit", "plant", "quirk", "reign",
+  "scale", "taste", "ultra", "vital", "weird", "xylid", "yacht", "zonal", "asset", "brisk",
+  "chase", "dandy", "elbow", "fable", "giant", "hotel", "index", "joint", "knack", "lunar",
+  "mirth", "noble", "onset", "prism", "quark", "roast", "swirl", "trick", "utter", "valor",
+  "waive", "xenic", "youth", "zebra", "angel", "bloom", "chart", "drown", "elite", "feast",
+  "glory", "honor", "input", "judge", "knoll", "latch", "mimic", "notch", "overt", "piano",
+  "quote", "rough", "spore", "tweak", "unzip", "vixen", "wrist", "xylan", "yield", "zippy",
+  "abode", "blend", "cloud", "dealt", "evoke", "frost", "grasp", "haste", "irony", "jazzy",
+  "karma", "lemon", "macho", "nymph", "oasis", "peace", "quirk", "relax", "swoop", "twirl",
+  "usher", "vigor", "woven", "xenon", "yodel", "zesty", "adore", "brisk", "chime", "dodge",
+  "eager", "flint", "grace", "humor", "inbox", "joker", "kayak", "latch", "mango", "novel",
+  "onion", "plush", "quilt", "rider", "spurt", "trout", "urban", "vista", "whisk", "xeric",
+  "yokel", "zebra", "apple", "bunny", "candy", "daisy", "eager", "fizzy", "glaze", "honey"
 ];
 const validLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var currentRow = 0;

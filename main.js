@@ -31,7 +31,7 @@ function resetBoard(){
     let node;
     let element = document.getElementById('div1');
     let child = document.getElementById('p1');
-    word = wordList[randomNumber]
+    word = wordList[randomNumber].toUpperCase();
     for (let x=0; x < 5; x++){
         for (let y=0; y < 5; y++){
           para = document.createElement("p3");
